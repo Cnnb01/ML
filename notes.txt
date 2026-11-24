@@ -1,0 +1,8 @@
+1.2 ML vs Rule Based Systems
+- To build your ML model, you need to first establish what the rules are, what are the features and what it the input. Staring with the rules helps you easily determine the features.
+- Eg in an email spam detector one can determine the rules as if the email title(feature) has specific words like promotion or if the email body(feature) has words like discount or if the email domain(feature) has words like online.com it should go to spam(input) 
+- After identifying the features we look at the emails against the features and assign them a 1 if the feature is true or a 0 if the feature is false, then if the user marked it as spam or not we label it a 1 or 0; and repeat the process for all other emails as we build our dataset.
+- When we finally have our data we train the model; the bigger the dataset the more accurate the model.
+- So for the rule based system we write multiple if statements for each rule thus end up having a very large codebase which is difficult to manage then use it in the sw but with the ML system we use data which has features and predicted inputs to train the model then incorporate it into the sw to determine wheather email is spam/not spam
+
+1.3 Supervised ML
